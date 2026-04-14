@@ -1,16 +1,50 @@
-# React + Vite
+🌤️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern weather application built using React that provides real-time weather data and a 3-day forecast based on user input or current location.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 Live Demo
 
-## React Compiler
+🔗 https://weather-react-app-three-teal.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Search weather by city
+- Auto-detect user location (Geolocation API)
+- Real-time weather data (WeatherAPI)
+- 3-day weather forecast
+- Loading state with spinner
+- Error handling for invalid input
+- Clean and responsive UI
+
+---
+
+⚙️ Tech Stack
+
+- React (useState, useEffect)
+- JavaScript (ES6+)
+- CSS3
+- WeatherAPI
+- Vercel (Deployment)
+
+---
+
+📂 GitHub Repository
+
+🔗 https://github.com/nico-dev-id/weather-react-app
+
+---
+
+🚀 About This Project
+
+This project was built as part of my journey to becoming a Frontend Developer.
+It focuses on building real-world applications using React, handling API data, and deploying projects to production.
+
+---
+
+📬 Contact
+
+If you have any feedback or opportunities, feel free to reach out.
