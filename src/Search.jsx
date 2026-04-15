@@ -3,7 +3,7 @@ import { useState } from "react"
 function Search({ setCity, getWeather, setError }) {
 
     const [input, setInput] = useState("");
-
+    
     const handleSearch = (e) => {
         e.preventDefault()
 
@@ -14,6 +14,8 @@ function Search({ setCity, getWeather, setError }) {
 
         setCity(input)
         getWeather(input)
+        setError("")
+        setInput("")
     }
 
     //console.log(input)
